@@ -2,27 +2,54 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Mi Perfil Personal - Pablito</title>
+    <title>Perfil Profesional - Pablito</title>
     <style>
-        body { font-family: Arial, sans-serif; text-align: center; background-color: #f4f4f4; padding: 50px; }
-        .card { background: white; padding: 30px; border-radius: 15px; box-shadow: 0px 4px 10px rgba(0,0,0,0.1); display: inline-block; }
-        h1 { color: #333; }
-        p { color: #666; font-size: 1.2em; }
-        a { text-decoration: none; color: white; background: #007bff; padding: 10px 20px; border-radius: 5px; display: inline-block; margin-top: 15px; }
-        a:hover { background: #0056b3; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; background-color: #e9ecef; margin: 0; padding: 20px; }
+        .container { max-width: 800px; margin: auto; background: white; padding: 40px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        header { text-align: center; border-bottom: 2px solid #007bff; padding-bottom: 20px; margin-bottom: 20px; }
+        h1 { color: #333; margin: 0; }
+        h2 { color: #007bff; border-left: 5px solid #007bff; padding-left: 10px; }
+        .info-section { margin-bottom: 30px; }
+        .btn { display: inline-block; background: #007bff; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-right: 10px; }
+        .btn-green { background: #28a745; }
+        .btn:hover { opacity: 0.8; }
     </style>
 </head>
 <body>
 
-    <div class="card">
+<div class="container">
+    <header>
         <h1>Pablito Lebelenoh</h1>
-        <p>Estudiante de tecnología apasionado por el desarrollo web <br> 
-        y la investigación sobre la economía en Cúcuta.</p>
-        
-        <a href="https://github.com/lebelenoh-tech" target="_blank">Mi Perfil de GitHub</a>
-        <br>
-        <a href="cucuta.html" style="background: #28a745;">Ver investigación Cúcuta</a>
+        <p>Estudiante de Tecnología | Desarrollador Junior</p>
+    </header>
+
+    <div class="info-section">
+        <h2>Sobre Mí</h2>
+        <p>Soy una persona dedicada al aprendizaje de nuevas tecnologías. Actualmente me enfoco en el desarrollo web y en el análisis de datos económicos, con especial interés en la realidad social de Cúcuta.</p>
     </div>
+
+    <div class="info-section">
+        <h2>Educación y Habilidades</h2>
+        <ul>
+            <li><strong>Estudios:</strong> Tecnología en [Tu Área de Estudio]</li>
+            <li><strong>Habilidades:</strong> HTML5, CSS3, Git, GitHub y Análisis de datos.</li>
+            <li><strong>Idiomas:</strong> Español (Nativo).</li>
+        </ul>
+    </div>
+
+    <div class="info-section">
+        <h2>Mis Proyectos</h2>
+        <p>Puedes ver mis trabajos actuales aquí:</p>
+        <a href="https://github.com/lebelenoh-tech" target="_blank" class="btn">Mi GitHub</a>
+        <a href="cucuta.html" class="btn btn-green">Ver Proyecto: Informalidad en Cúcuta</a>
+    </div>
+
+    <div class="info-section">
+        <h2>Contacto</h2>
+        <p>📧 Email: tu-correo@ejemplo.com</p>
+        <p>📍 Ubicación: Cúcuta, Norte de Santander</p>
+    </div>
+</div>
 
 </body>
 </html>
